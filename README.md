@@ -1,2 +1,7 @@
 "# tesSKI" 
-"# tesSKI" 
+
+follow this command
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
